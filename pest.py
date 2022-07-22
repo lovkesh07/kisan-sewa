@@ -4,8 +4,8 @@ import io
 import base64
 import numpy as np
 from PIL import Image
-from keras.preprocessing.image import img_to_array
-
+# from keras.preprocessing.image import img_to_array
+from tensorflow.keras.utils import img_to_array
 # Firebase 
 
 

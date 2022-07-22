@@ -72,6 +72,8 @@ a:hover {
 .link-a:hover {
   color: #ffffff;
   text-decoration: none;
+}our servi
+element.style {
 }
 
 .link-a span {
@@ -91,7 +93,7 @@ a:hover {
 }
 
 .color-b {
-  color: #2eca6a;
+  color: #a81cee;
 }
 
 .color-d {
@@ -1297,8 +1299,15 @@ a:hover {
 //--//-->   SERVICES - CARD-C
 ======================================*/
 
+/* .col-md-4 .hello{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #2eca6a;
+} */
+
 .card-box-c {
   position: relative;
+  /* background:red; */
+  
 }
 
 .card-header-c {
@@ -1306,6 +1315,7 @@ a:hover {
 }
 
 .card-body-c {
+  
   padding: .5rem .5rem 0 .5rem;
 }
 
@@ -1336,7 +1346,20 @@ a:hover {
 .card-box-d .card-overlay-hover {
   transition: all .2s ease-in-out;
   padding: 15px 40px 15px 35px;
+
+
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
+
+
+/* .col-md-4{
+  transition: .2s ;
+  cursor:pointer;
+}
+.col-md-4:hover{
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+} */
+
 
 .card-box-d .title-d {
   transition: .3s ease-in-out;
@@ -1346,6 +1369,9 @@ a:hover {
   -webkit-transform: translateY(-20px);
   transform: translateY(-20px);
   opacity: 0;
+
+
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
 }
 
 .card-box-d .content-d {
@@ -1376,7 +1402,7 @@ a:hover {
 }
 
 .card-box-d:hover .card-overlay-hover {
-  background-color: #2eca6a;
+  background-color: #225eec;
   opacity: .9;
 }
 
